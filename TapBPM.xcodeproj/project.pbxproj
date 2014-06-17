@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86FB29B4192D329F00C08C84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86FB29B3192D329F00C08C84 /* Foundation.framework */; };
+		86FB29B6192D329F00C08C84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86FB29B5192D329F00C08C84 /* CoreGraphics.framework */; };
+		86FB29B8192D329F00C08C84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86FB29B7192D329F00C08C84 /* UIKit.framework */; };
+		86FB29BE192D329F00C08C84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86FB29BC192D329F00C08C84 /* InfoPlist.strings */; };
+		86FB29C0192D329F00C08C84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86FB29BF192D329F00C08C84 /* main.m */; };
+		86FB29C4192D329F00C08C84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86FB29C3192D329F00C08C84 /* AppDelegate.m */; };
+		86FB29C7192D329F00C08C84 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86FB29C5192D329F00C08C84 /* Main_iPhone.storyboard */; };
+		86FB29CA192D329F00C08C84 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86FB29C8192D329F00C08C84 /* Main_iPad.storyboard */; };
+		86FB29CD192D329F00C08C84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86FB29CC192D329F00C08C84 /* ViewController.m */; };
+		86FB29CF192D329F00C08C84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86FB29CE192D329F00C08C84 /* Images.xcassets */; };
+		86FB29D6192D329F00C08C84 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86FB29D5192D329F00C08C84 /* XCTest.framework */; };
+		86FB29D7192D329F00C08C84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86FB29B3192D329F00C08C84 /* Foundation.framework */; };
+		86FB29D8192D329F00C08C84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86FB29B7192D329F00C08C84 /* UIKit.framework */; };
+		86FB29E0192D329F00C08C84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86FB29DE192D329F00C08C84 /* InfoPlist.strings */; };
+		86FB29E2192D329F00C08C84 /* TapBPMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86FB29E1192D329F00C08C84 /* TapBPMTests.m */; };
+		86FF001C19328B2E006D9D2B /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86FF001B19328B2E006D9D2B /* SettingsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86FB29D9192D329F00C08C84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86FB29A8192D329F00C08C84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86FB29AF192D329F00C08C84;
+			remoteInfo = TapBPM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86FB29B0192D329F00C08C84 /* TapBPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapBPM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86FB29B3192D329F00C08C84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86FB29B5192D329F00C08C84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		86FB29B7192D329F00C08C84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		86FB29BB192D329F00C08C84 /* TapBPM-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapBPM-Info.plist"; sourceTree = "<group>"; };
+		86FB29BD192D329F00C08C84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86FB29BF192D329F00C08C84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86FB29C1192D329F00C08C84 /* TapBPM-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapBPM-Prefix.pch"; sourceTree = "<group>"; };
+		86FB29C2192D329F00C08C84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86FB29C3192D329F00C08C84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86FB29C6192D329F00C08C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		86FB29C9192D329F00C08C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		86FB29CB192D329F00C08C84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		86FB29CC192D329F00C08C84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		86FB29CE192D329F00C08C84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		86FB29D4192D329F00C08C84 /* TapBPMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapBPMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86FB29D5192D329F00C08C84 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		86FB29DD192D329F00C08C84 /* TapBPMTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapBPMTests-Info.plist"; sourceTree = "<group>"; };
+		86FB29DF192D329F00C08C84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86FB29E1192D329F00C08C84 /* TapBPMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapBPMTests.m; sourceTree = "<group>"; };
+		86FF001A19328B2E006D9D2B /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		86FF001B19328B2E006D9D2B /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86FB29AD192D329F00C08C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FB29B6192D329F00C08C84 /* CoreGraphics.framework in Frameworks */,
+				86FB29B8192D329F00C08C84 /* UIKit.framework in Frameworks */,
+				86FB29B4192D329F00C08C84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86FB29D1192D329F00C08C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FB29D6192D329F00C08C84 /* XCTest.framework in Frameworks */,
+				86FB29D8192D329F00C08C84 /* UIKit.framework in Frameworks */,
+				86FB29D7192D329F00C08C84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86FB29A7192D329F00C08C84 = {
+			isa = PBXGroup;
+			children = (
+				86FB29B9192D329F00C08C84 /* TapBPM */,
+				86FB29DB192D329F00C08C84 /* TapBPMTests */,
+				86FB29B2192D329F00C08C84 /* Frameworks */,
+				86FB29B1192D329F00C08C84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86FB29B1192D329F00C08C84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86FB29B0192D329F00C08C84 /* TapBPM.app */,
+				86FB29D4192D329F00C08C84 /* TapBPMTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86FB29B2192D329F00C08C84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86FB29B3192D329F00C08C84 /* Foundation.framework */,
+				86FB29B5192D329F00C08C84 /* CoreGraphics.framework */,
+				86FB29B7192D329F00C08C84 /* UIKit.framework */,
+				86FB29D5192D329F00C08C84 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86FB29B9192D329F00C08C84 /* TapBPM */ = {
+			isa = PBXGroup;
+			children = (
+				86FB29C2192D329F00C08C84 /* AppDelegate.h */,
+				86FB29C3192D329F00C08C84 /* AppDelegate.m */,
+				86FB29C5192D329F00C08C84 /* Main_iPhone.storyboard */,
+				86FB29C8192D329F00C08C84 /* Main_iPad.storyboard */,
+				86FB29CB192D329F00C08C84 /* ViewController.h */,
+				86FB29CC192D329F00C08C84 /* ViewController.m */,
+				86FB29CE192D329F00C08C84 /* Images.xcassets */,
+				86FB29BA192D329F00C08C84 /* Supporting Files */,
+				86FF001A19328B2E006D9D2B /* SettingsViewController.h */,
+				86FF001B19328B2E006D9D2B /* SettingsViewController.m */,
+			);
+			path = TapBPM;
+			sourceTree = "<group>";
+		};
+		86FB29BA192D329F00C08C84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86FB29BB192D329F00C08C84 /* TapBPM-Info.plist */,
+				86FB29BC192D329F00C08C84 /* InfoPlist.strings */,
+				86FB29BF192D329F00C08C84 /* main.m */,
+				86FB29C1192D329F00C08C84 /* TapBPM-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86FB29DB192D329F00C08C84 /* TapBPMTests */ = {
+			isa = PBXGroup;
+			children = (
+				86FB29E1192D329F00C08C84 /* TapBPMTests.m */,
+				86FB29DC192D329F00C08C84 /* Supporting Files */,
+			);
+			path = TapBPMTests;
+			sourceTree = "<group>";
+		};
+		86FB29DC192D329F00C08C84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86FB29DD192D329F00C08C84 /* TapBPMTests-Info.plist */,
+				86FB29DE192D329F00C08C84 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86FB29AF192D329F00C08C84 /* TapBPM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86FB29E5192D329F00C08C84 /* Build configuration list for PBXNativeTarget "TapBPM" */;
+			buildPhases = (
+				86FB29AC192D329F00C08C84 /* Sources */,
+				86FB29AD192D329F00C08C84 /* Frameworks */,
+				86FB29AE192D329F00C08C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapBPM;
+			productName = TapBPM;
+			productReference = 86FB29B0192D329F00C08C84 /* TapBPM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86FB29D3192D329F00C08C84 /* TapBPMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86FB29E8192D329F00C08C84 /* Build configuration list for PBXNativeTarget "TapBPMTests" */;
+			buildPhases = (
+				86FB29D0192D329F00C08C84 /* Sources */,
+				86FB29D1192D329F00C08C84 /* Frameworks */,
+				86FB29D2192D329F00C08C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86FB29DA192D329F00C08C84 /* PBXTargetDependency */,
+			);
+			name = TapBPMTests;
+			productName = TapBPMTests;
+			productReference = 86FB29D4192D329F00C08C84 /* TapBPMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86FB29A8192D329F00C08C84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nettvever Novas";
+				TargetAttributes = {
+					86FB29D3192D329F00C08C84 = {
+						TestTargetID = 86FB29AF192D329F00C08C84;
+					};
+				};
+			};
+			buildConfigurationList = 86FB29AB192D329F00C08C84 /* Build configuration list for PBXProject "TapBPM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86FB29A7192D329F00C08C84;
+			productRefGroup = 86FB29B1192D329F00C08C84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86FB29AF192D329F00C08C84 /* TapBPM */,
+				86FB29D3192D329F00C08C84 /* TapBPMTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86FB29AE192D329F00C08C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FB29CA192D329F00C08C84 /* Main_iPad.storyboard in Resources */,
+				86FB29CF192D329F00C08C84 /* Images.xcassets in Resources */,
+				86FB29C7192D329F00C08C84 /* Main_iPhone.storyboard in Resources */,
+				86FB29BE192D329F00C08C84 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86FB29D2192D329F00C08C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FB29E0192D329F00C08C84 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86FB29AC192D329F00C08C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FB29CD192D329F00C08C84 /* ViewController.m in Sources */,
+				86FB29C4192D329F00C08C84 /* AppDelegate.m in Sources */,
+				86FB29C0192D329F00C08C84 /* main.m in Sources */,
+				86FF001C19328B2E006D9D2B /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86FB29D0192D329F00C08C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FB29E2192D329F00C08C84 /* TapBPMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86FB29DA192D329F00C08C84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86FB29AF192D329F00C08C84 /* TapBPM */;
+			targetProxy = 86FB29D9192D329F00C08C84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86FB29BC192D329F00C08C84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86FB29BD192D329F00C08C84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		86FB29C5192D329F00C08C84 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86FB29C6192D329F00C08C84 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		86FB29C8192D329F00C08C84 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86FB29C9192D329F00C08C84 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		86FB29DE192D329F00C08C84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86FB29DF192D329F00C08C84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86FB29E3192D329F00C08C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86FB29E4192D329F00C08C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86FB29E6192D329F00C08C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapBPM/TapBPM-Prefix.pch";
+				INFOPLIST_FILE = "TapBPM/TapBPM-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		86FB29E7192D329F00C08C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapBPM/TapBPM-Prefix.pch";
+				INFOPLIST_FILE = "TapBPM/TapBPM-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		86FB29E9192D329F00C08C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapBPM.app/TapBPM";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapBPM/TapBPM-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TapBPMTests/TapBPMTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		86FB29EA192D329F00C08C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapBPM.app/TapBPM";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapBPM/TapBPM-Prefix.pch";
+				INFOPLIST_FILE = "TapBPMTests/TapBPMTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86FB29AB192D329F00C08C84 /* Build configuration list for PBXProject "TapBPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86FB29E3192D329F00C08C84 /* Debug */,
+				86FB29E4192D329F00C08C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86FB29E5192D329F00C08C84 /* Build configuration list for PBXNativeTarget "TapBPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86FB29E6192D329F00C08C84 /* Debug */,
+				86FB29E7192D329F00C08C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86FB29E8192D329F00C08C84 /* Build configuration list for PBXNativeTarget "TapBPMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86FB29E9192D329F00C08C84 /* Debug */,
+				86FB29EA192D329F00C08C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86FB29A8192D329F00C08C84 /* Project object */;
+}
